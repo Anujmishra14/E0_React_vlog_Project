@@ -19,7 +19,7 @@ export default function ReadBlogCompo() {
         <div className="readReporter">
           <hr className="readLine"></hr>
           <div className="readBlogUserdata">
-            <div className="readBlogUser"><i className="fa-solid fa-user"></i> Saptarsi {filterData[0].date}</div>
+            <div className="readBlogUser"><i className="fa-solid fa-user"></i> Anuj Mishra {filterData[0].date}</div>
             <div className="readBlogLogo"><i className="fa-brands fa-facebook"></i> <i className="fa-brands fa-instagram"></i> <i className="fa-brands fa-twitter"></i> <i className="fa-brands fa-youtube"></i></div>
           </div>
           <hr className="readLine"></hr>
@@ -31,7 +31,7 @@ export default function ReadBlogCompo() {
         <div className="readReporter">
           <hr className="readLine"></hr>
           <div className="readBlogUserdata">
-            <div className="readBlogUser"><i className="fa-solid fa-user"></i>By Saptarsi {filterData[0].date}</div>
+            <div className="readBlogUser"><i className="fa-solid fa-user"></i>By Anuj Mishra {filterData[0].date}</div>
             <div className="readBlogLogo"><i className="fa-solid fa-hands-clapping"></i> {filterData[0].clap}</div>
           </div>
           <hr className="readLine"></hr>
@@ -58,7 +58,7 @@ export default function ReadBlogCompo() {
                 <div className='info home'>
                   <h3><NavLink to={`/Blog/${item.id}`}>{item.title.slice(0, 80)}....</NavLink></h3>
                   <p className='des'>{item.desc.slice(0, 40)}....</p>
-                  <p className='ref'>Bollywood : 17-10-23</p>
+                  <p className='ref'>Bollywood</p>
                 </div>
               </div>
             }
